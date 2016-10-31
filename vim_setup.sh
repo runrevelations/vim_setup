@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-VIMRC="set relativenumber\nset number\nset cursorline\nset cursorcolumn\nset laststatus=2\nexecute pathogen#infect()\nsyntax on\ncolorscheme PaperColor\nmap <C-n> :NERDTreeToggle<CR>\nset t_Co=256\nset background=dark\nlet g:airline#extensions#tabline#enabled = 1\n"
+VIMRC="set relativenumber\nset number\nset cursorline\nset cursorcolumn\nset laststatus=2\nexecute pathogen#infect()\nsyntax on\ncolorscheme gruvbox\nmap <C-n> :NERDTreeToggle<CR>\nset t_Co=256\nset background=dark\nhi Normal ctermbg=none\nlet g:airline#extensions#tabline#enabled = 1\n"
 
 Plugs="https://github.com/NLKNguyen/papercolor-theme.git https://github.com/airblade/vim-gitgutter.git https://github.com/ElmCast/elm-vim.git https://github.com/scrooloose/nerdtree.git https://github.com/Yggdroot/indentLine.git https://github.com/vim-airline/vim-airline.git https://github.com/elixir-lang/vim-elixir.git"
 
