@@ -29,7 +29,7 @@ setVimRc () {
 }
 
 if [ "test vim" ] && [ "test git" ]; then 
-  installPathogen && cd ~/Desktop/test && clonePlugins && addThemeToVimColors && setVimRc
+  installPathogen && cd ~/.vim/bundle && clonePlugins && addThemeToVimColors && setVimRc
 else
   echo "Make sure GIT and VIM are installed on your machine."
 fi
